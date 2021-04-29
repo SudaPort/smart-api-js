@@ -1,7 +1,7 @@
-/* * Copyright 2017 Atticlab LLC.
+/* * Copyright 2017 SudaPort LLC.
  * Licensed under the Apache License, Version 2.0
  * See the LICENSE or LICENSE_UA file at the root of this repository
- * Contact us at http://atticlab.net
+ * Contact us at http://SudaPort.net
  */
 const chai = require('chai');
 const chaiAsPromised = require('chai-as-promised');
@@ -15,7 +15,7 @@ chai.should();
 var smart_api = require('../index.js');
 
 var SmartApi = new smart_api({
-    host: 'http://api.smartmoney.com.ua',
+    host: 'http://api.gurosh.com',
     debug: true,
 });
 
